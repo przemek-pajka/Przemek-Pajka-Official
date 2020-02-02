@@ -1,0 +1,1 @@
+$("#phone-input").on("input",function(t){let i=$("#phone-input").val().length;return i<9||i>9?this.setCustomValidity("Numer telefonu jest nieprawidłowy"):9==i&&this.setCustomValidity(""),0==i&&this.setCustomValidity("Wypełnij te pole"),!1}),particlesJS.load("particles-js","js/particles/particlesjs-config.json",function(){console.log("callback - particles.js config loaded")});
