@@ -1181,11 +1181,11 @@ DirectoryIndex dist/index.php
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /nowy_projekt/
+RewriteBase /dist/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /nowy_projekt/index.php [L]
+RewriteRule . /dist/index.php [L]
 </IfModule>
 
 # END WordPress
